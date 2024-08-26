@@ -1,0 +1,23 @@
+#visual {
+  background: black;
+  flex-basis: 300px;
+  display: flex;
+  flex-grow: 1;
+}
+
+body {
+  display: flex;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
