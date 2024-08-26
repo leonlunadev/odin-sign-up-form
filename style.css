@@ -1,12 +1,17 @@
 #visual {
-  background: black;
-  flex-basis: 300px;
-  display: flex;
-  flex-grow: 1;
+  background: url("leaves.jpg");
+  background-size: cover;
+  width: 50vh;
+}
+
+#signup {
+  margin-left: 50px;
 }
 
 body {
   display: flex;
+  height: 100vh;
+  margin: 0;
 }
 #form {
   display: flex;
@@ -14,7 +19,8 @@ body {
 }
 .section {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .field {
