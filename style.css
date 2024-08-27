@@ -1,3 +1,13 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  margin: 0px;
+}
+
 #visual {
   background: url("leaves.jpg");
   background-size: cover;
@@ -6,13 +16,33 @@
 
 #signup {
   margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
-body {
+#banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 150px;
+  margin-top: 200px;
   display: flex;
-  height: 100vh;
-  margin: 0;
+  align-items: center;
+  justify-content: center;
 }
+
+#banner h1 {
+  color: white;
+}
+
+#visual p {
+  color: white;
+}
+
+#visual img {
+  height: 90%;
+}
+
 #form {
   display: flex;
   flex-direction: column;
