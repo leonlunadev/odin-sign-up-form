@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "NorseBold";
+  src: url("Norse-Bold.otf") format("opentype");
+}
+
 body {
   display: flex;
   height: 100vh;
@@ -8,10 +13,23 @@ p {
   margin: 0px;
 }
 
+button {
+  background-color: #596d48;
+  color: white;
+  border-radius: 5px;
+  margin: 20px 20px 20px 0;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 #visual {
   background: url("leaves.jpg");
   background-size: cover;
   width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #signup {
@@ -25,18 +43,24 @@ p {
 #banner {
   background-color: rgba(0, 0, 0, 0.5);
   height: 150px;
-  margin-top: 200px;
+  margin-top: 210px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#banner h1 {
+#banner span {
   color: white;
+  font-family: "NorseBold", san-serif;
+  font-size: 80px;
+  margin-top: 20px;
 }
 
 #visual p {
   color: white;
+  position: absolute;
+  bottom: 10px;
 }
 
 #visual img {
@@ -46,6 +70,10 @@ p {
 #form {
   display: flex;
   flex-direction: column;
+}
+
+#signup p {
+  margin-bottom: 20px;
 }
 .section {
   display: flex;
