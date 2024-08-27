@@ -7,7 +7,7 @@ body {
   display: flex;
   height: 100vh;
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: #fafafa;
 }
 
 p {
@@ -78,7 +78,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 10px;
   margin-top: 150px;
 }
 #signup #intro p {
@@ -97,7 +97,8 @@ input {
   padding-left: 50px;
   margin-left: 0px;
   padding-bottom: 20px;
-  border-radius: 10px;
+
+  border-bottom: 3px solid rgba(200, 200, 200, 0.5);
 }
 
 .section {
