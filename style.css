@@ -45,6 +45,11 @@ textarea:focus {
   border-radius: 2px;
 }
 
+input:invalid {
+  border-color: red;
+  border-radius: 2px;
+}
+
 #visual {
   background: url("leaves.jpg");
   background-size: cover;
