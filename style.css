@@ -40,8 +40,8 @@ input {
 input:focus,
 textarea:focus {
   outline: none;
-  border: transparent;
-  box-shadow: 0 0 0 1px blue;
+  border-color: blue;
+  box-shadow: 0 0 0 0.5px blue;
   border-radius: 2px;
 }
 
