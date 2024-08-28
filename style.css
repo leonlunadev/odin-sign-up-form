@@ -37,6 +37,11 @@ input {
   padding-right: 100px;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 #visual {
   background: url("leaves.jpg");
   background-size: cover;
